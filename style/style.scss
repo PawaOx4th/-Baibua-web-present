@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,500;1,400&family=Roboto:wght@300;700;900&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // background-color: #0193e9;
+  font-family: "Kanit", ital;
+}
+
+// Navber
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 0 0;
+  width: 100vw;
+  overflow: hidden;
+  flex-wrap: wrap;
+  float: left;
+  position: fixed;
+  // div => class 'img-logo'
+  .img-logo {
+    margin: 0 0 0 84px;
+    img {
+      height: 75px;
+      width: 240px;
+    }
+  }
+
+  // ul , li
+  ul {
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    width: 40%;
+    margin: 0 130px 0 0;
+    justify-content: space-around;
+    li {
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+  }
+}
+
+// Section 1
+.section-1 {
+  background-image: url("../assete/wallpaper/bg-section-1.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .content-1 {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+    .title {
+      p {
+        line-height: 1;
+        font-size: 97px;
+        color: #fff;
+        font-family: "Roboto";
+        font-weight: bold;
+      }
+    }
+
+    .subtitle-1 {
+      margin: 20px 0 0 110px;
+      p {
+        color: #fff;
+        font-family: "Roboto";
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .btn-content-1 {
+      margin: 1rem 0 0 200px;
+      width: 100%;
+      // background-color: purple;
+      button {
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Roboto";
+        letter-spacing: 3px;
+        width: 182px;
+        height: 60px;
+        border-radius: 50px;
+      }
+      .btn-detail {
+        text-align: center;
+        margin-right: 28px;
+        color: #fff;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255);
+      }
+
+      .btn-download {
+        text-align: center;
+        background: #fff;
+        border: 2px solid #0193e9;
+        color: #0193e9;
+      }
+    }
+  }
+  .mobile-img {
+    flex: 5;
+    margin: 68px 0 0 0 ;
+    display: flex;
+    justify-content: flex-end;
+
+    img{
+     width: 994px;
+     height: 1159px;
+    }
+
+  }
+}
+
+// Section 2
+.section-2 {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
